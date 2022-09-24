@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="593dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:baselineAligned="false"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="#B5D0DF"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_height="590dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TableRow
+                android:layout_width="346dp"
+                android:layout_height="312dp"
+                android:foregroundGravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="363dp"
+                    android:layout_height="272dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/todo"
+                    android:foregroundGravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.37"
+                    app:srcCompat="@drawable/logotipo" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="@string/btnPrimary"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnDark"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnAccent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnAccent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="#000000"
+                    tools:ignore="TextContrastCheck" />
+            </TableRow>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

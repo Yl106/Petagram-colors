@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="btnPrimary">Color primario</string>
+    <string name="btnDark">Color primario oscuro</string>
+    <string name="btnAccent">Color acentuado</string>
+    <string name="todo">TODO</string>
+</resources>
